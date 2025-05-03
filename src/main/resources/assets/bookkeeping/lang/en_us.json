@@ -1,0 +1,11 @@
+{
+
+  "text.autoconfig.villagerunknown-bookkeeping.title": "VillagerUnknown's Bookkeeping for Villager Coin",
+
+  "text.autoconfig.villagerunknown-bookkeeping.category.General": "General",
+
+  "text.autoconfig.villagerunknown-bookkeeping.option.enableTheUnknown": "Enable The Unknown",
+
+  "item.villagerunknown-villagercoin.villager_coin_receipt": "Villager Coin Receipt"
+
+}
