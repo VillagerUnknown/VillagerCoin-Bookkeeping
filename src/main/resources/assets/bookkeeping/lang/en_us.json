@@ -6,6 +6,7 @@
 
   "text.autoconfig.villagerunknown-bookkeeping.option.enableTheUnknown": "Enable The Unknown",
 
-  "item.villagerunknown-villagercoin.villager_coin_receipt": "Villager Coin Receipt"
+  "item.villagerunknown-villagercoin.villager_coin_receipt": "Villager Coin Receipt",
+  "item.villagerunknown-villagercoin.villager_coin_ledger": "Villager Coin Ledger"
 
 }
