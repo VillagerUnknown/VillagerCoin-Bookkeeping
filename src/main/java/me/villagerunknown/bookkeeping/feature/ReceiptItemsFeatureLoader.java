@@ -1,15 +1,13 @@
 package me.villagerunknown.bookkeeping.feature;
 
 import me.villagerunknown.bookkeeping.item.ReceiptItem;
-import me.villagerunknown.bookkeeping.item.ReceiptItems;
+import me.villagerunknown.bookkeeping.item.BookkeepingItems;
 import me.villagerunknown.villagercoin.feature.ReceiptItemsFeature;
 import net.minecraft.item.Item;
 
 public class ReceiptItemsFeatureLoader {
 
-	public static void execute(){
-		new ReceiptItems();
-	}
+	public static void execute(){}
 	
 	public static Item registerReceiptItem( String id, Item.Settings settings ) {
 		return ReceiptItemsFeature.registerReceipt( id, new ReceiptItem( settings ) );

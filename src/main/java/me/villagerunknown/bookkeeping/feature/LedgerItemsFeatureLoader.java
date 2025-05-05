@@ -1,15 +1,12 @@
 package me.villagerunknown.bookkeeping.feature;
 
 import me.villagerunknown.bookkeeping.item.LedgerItem;
-import me.villagerunknown.bookkeeping.item.LedgerItems;
 import me.villagerunknown.villagercoin.feature.LedgerItemsFeature;
 import net.minecraft.item.Item;
 
 public class LedgerItemsFeatureLoader {
 
-	public static void execute(){
-		new LedgerItems();
-	}
+	public static void execute(){}
 	
 	public static Item registerLedgerItem( String id, Item.Settings settings ) {
 		return LedgerItemsFeature.registerLedger( id, new LedgerItem( settings ) );

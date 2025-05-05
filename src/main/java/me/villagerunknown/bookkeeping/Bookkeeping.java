@@ -2,6 +2,7 @@ package me.villagerunknown.bookkeeping;
 
 import me.villagerunknown.bookkeeping.feature.LedgerItemsFeatureLoader;
 import me.villagerunknown.bookkeeping.feature.ReceiptItemsFeatureLoader;
+import me.villagerunknown.bookkeeping.item.BookkeepingItems;
 import me.villagerunknown.platform.Platform;
 import me.villagerunknown.platform.PlatformMod;
 import me.villagerunknown.platform.manager.featureManager;
@@ -25,8 +26,11 @@ public class Bookkeeping implements ModInitializer {
 		Platform.init_mod( MOD );
 		
 		// # Activate Features
-		featureManager.addFeature( "ReceiptItemsFeature", ReceiptItemsFeatureLoader::execute );
-		featureManager.addFeature( "LedgerItemsFeature", LedgerItemsFeatureLoader::execute );
+		featureManager.addFeature( "receiptItemsFeature", ReceiptItemsFeatureLoader::execute );
+		featureManager.addFeature( "ledgerItemsFeature", LedgerItemsFeatureLoader::execute );
+		
+		// # Load Items from multiple Features
+		new BookkeepingItems();
 	}
 	
 }
