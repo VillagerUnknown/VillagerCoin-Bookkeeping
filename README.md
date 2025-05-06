@@ -36,9 +36,10 @@ Ledgers allow players to catalog up to 100 receipts into an organized written bo
 * Each Ledger includes the date created, date updated, number of records (pages), the total amount from catalogued receipts in copper coins, and the generation on copied Ledgers.
 * Every page in the Ledger represents a catalogued stack of receipts consisting of the date the receipt was created, the name of the receipt, and the total amount of the receipt in copper coins.
 * Ledgers can be duplicated and players can continue to add receipts to the duplicated Ledgers, if there are less than 100 pages in the Ledger. 
-Duplicated ledgers are custom named as "Copied {ItemName}" and a generation tooltip is appended. 
+Duplicated ledgers are custom named as "Copied {ItemName}" and a generation tooltip is appended.
+* Ledgers include any custom messages on Receipts. This includes custom names and, if different from the default thank-you message, the custom thank-you message.
 
-_Players can custom name Ledgers after crafting them to keep the custom name. They will also maintain their custom name as more receipts are added._
+_When crafting Ledgers, they will keep the custom name from Book and Quill's. Ledgers maintain their custom name as more receipts are added._
 
 ### Crafting Ledgers
 
@@ -50,14 +51,22 @@ _Players can custom name Ledgers after crafting them to keep the custom name. Th
 
 ## Additional Notes
 
+* Dates are in the format: YYYY-MM-DD
 * Ledgers aren't just for tracking spending's and earnings. 
-They can also be used to track when amounts are placed into, and taken out of, a "bank account" or vault.
+They can also be used to track when amounts are placed into, and taken out of, a "bank account" or vault. 
+Or, to review shops and services.
 * It might be wise to keep at least 2 Ledgers for a shop. One for earnings and one for spending.
 * Shops that include a Decorated Pot on top of a Hopper pointed into a Chest will make it easy 
 for shoppers to submit copies of their Receipts to the shop for the shop owner to catalog in their shop's Ledger.
 * A lot of the functionality of this addon has been inspired by the habits of members from a popular SMP with a shopping district.
 * In single player, players can use this addon to keep track of coins earned in their world.
 * In multiplayer, this addon offers a broad range of new role playing opportunities.
+
+With transactions between players it can be pretty straightforward creating a Receipt and filing it in a Ledger. 
+But, players can get really fancy with their bookkeeping by renaming the piece of paper used as the ingredient to craft the Receipt to add a footnote. 
+This footnote can be used as a thank-you message or other note, like a review or reminder.
+Additionally, after crafting a Receipt players can rename the Receipt. 
+When a renamed Receipt is added to a Ledger, it will record the custom name in the Ledger.
 
 ## Support
 
