@@ -3,7 +3,7 @@
   "id": "villagerunknown-bookkeeping",
   "version": "${version}",
   "name": "VillagerUnknown's Bookkeeping for Villager Coin",
-  "description": "Adds Bookkeeping items to Villager Coin to track financial records.",
+  "description": "Adds Bookkeeping items, like Receipts and Ledgers, to Villager Coin to track financial records.",
   "authors": ["VillagerUnknown"],
   "contact": {
     "homepage":"https://github.com/VillagerUnknown",
