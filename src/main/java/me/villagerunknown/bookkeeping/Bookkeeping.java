@@ -2,7 +2,6 @@ package me.villagerunknown.bookkeeping;
 
 import me.villagerunknown.bookkeeping.feature.LedgerItemsFeatureLoader;
 import me.villagerunknown.bookkeeping.feature.ReceiptItemsFeatureLoader;
-import me.villagerunknown.bookkeeping.item.BookkeepingItems;
 import me.villagerunknown.platform.Platform;
 import me.villagerunknown.platform.PlatformMod;
 import me.villagerunknown.platform.manager.featureManager;
@@ -11,10 +10,9 @@ import org.slf4j.Logger;
 
 public class Bookkeeping implements ModInitializer {
 	
-	public static PlatformMod<BookkeepingConfigData> MOD = Platform.register("bookkeeping", Bookkeeping.class, BookkeepingConfigData.class );
+	public static PlatformMod<?> MOD = Platform.register("bookkeeping", Bookkeeping.class );
 	public static String MOD_ID = MOD.getModId();
 	public static Logger LOGGER = MOD.getLogger();
-	public static BookkeepingConfigData CONFIG = MOD.getConfig();
 	
 	@Override
 	public void onInitialize() {
@@ -29,8 +27,8 @@ public class Bookkeeping implements ModInitializer {
 		featureManager.addFeature( "receiptItemsFeature", ReceiptItemsFeatureLoader::execute );
 		featureManager.addFeature( "ledgerItemsFeature", LedgerItemsFeatureLoader::execute );
 		
-		// # Load Items from multiple Features
-		new BookkeepingItems();
+		// # Load Features
+		featureManager.loadFeatures();
 	}
 	
 }
