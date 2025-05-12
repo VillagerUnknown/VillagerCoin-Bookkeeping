@@ -5,7 +5,7 @@ import me.villagerunknown.bookkeeping.item.ReceiptItems;
 import me.villagerunknown.villagercoin.feature.ReceiptFeature;
 import net.minecraft.item.Item;
 
-public class ReceiptItemsFeatureLoader {
+public class ReceiptItemsFeature {
 
 	public static void execute(){
 		new ReceiptItems();

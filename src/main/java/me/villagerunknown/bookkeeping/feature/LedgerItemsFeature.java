@@ -5,7 +5,7 @@ import me.villagerunknown.bookkeeping.item.LedgerItems;
 import me.villagerunknown.villagercoin.feature.LedgerFeature;
 import net.minecraft.item.Item;
 
-public class LedgerItemsFeatureLoader {
+public class LedgerItemsFeature {
 
 	public static void execute(){
 		new LedgerItems();
