@@ -10,7 +10,7 @@
     "sources":"https://github.com/VillagerUnknown/VillagerCoin-Bookkeeping",
     "issues":"https://github.com/VillagerUnknown/VillagerCoin-Bookkeeping/issues"
   },
-  "license": "CC-BY-4.0",
+  "license": "MIT",
   "icon": "assets/villagerunknown-bookkeeping/villagerunknown-bookkeeping.png",
   "environment": "*",
   "entrypoints": {
