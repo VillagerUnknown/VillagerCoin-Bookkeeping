@@ -1,6 +1,6 @@
 package me.villagerunknown.bookkeeping.feature;
 
-import me.villagerunknown.bookkeeping.item.LedgerItem;
+import me.villagerunknown.villagercoin.item.LedgerItem;
 import me.villagerunknown.bookkeeping.item.LedgerItems;
 import me.villagerunknown.villagercoin.Villagercoin;
 import me.villagerunknown.villagercoin.feature.LedgerFeature;

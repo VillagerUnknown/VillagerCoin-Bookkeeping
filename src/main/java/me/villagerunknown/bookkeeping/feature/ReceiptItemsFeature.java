@@ -1,6 +1,6 @@
 package me.villagerunknown.bookkeeping.feature;
 
-import me.villagerunknown.bookkeeping.item.ReceiptItem;
+import me.villagerunknown.villagercoin.item.ReceiptItem;
 import me.villagerunknown.bookkeeping.item.ReceiptItems;
 import me.villagerunknown.villagercoin.Villagercoin;
 import me.villagerunknown.villagercoin.feature.ReceiptFeature;

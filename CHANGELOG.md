@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2]
+
+### Changed
+
+- Moved `ReceiptItem` and `LedgerItem` objects from Bookkeeping to the core Villager Coin mod for simplicity.
+
 ## [1.0.1]
 
 ### Added
