@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "villagerunknown-villagercoin:villager_coin_receipt",
+    "villagerunknown-villagercoin:villager_coin_ledger"
+  ]
+}
