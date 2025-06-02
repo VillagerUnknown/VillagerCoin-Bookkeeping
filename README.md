@@ -75,7 +75,7 @@ When a renamed Receipt is added to a Ledger, it will record the custom name in t
 
 ### Supported Languages
 
-* English
+* English _by VillagerUnknown_
 * Pirate English
 * Svenska (Swedish)
 * Français (French)
@@ -88,3 +88,5 @@ When a renamed Receipt is added to a Ledger, it will record the custom name in t
 * 日本語 (Japanese)
 * हिन्दी (Hindi)
 * (Hebrew) עברית
+
+_Disclaimer: Unless noted otherwise, translations have been provided by automated services._
