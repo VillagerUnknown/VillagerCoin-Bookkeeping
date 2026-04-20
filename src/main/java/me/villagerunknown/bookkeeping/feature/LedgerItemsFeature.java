@@ -13,11 +13,11 @@ public class LedgerItemsFeature {
 	}
 	
 	public static Item registerLedgerItem( String id, Item.Settings settings ) {
-		return LedgerFeature.registerLedger( Villagercoin.MOD_ID, id, new LedgerItem( settings ) );
+		return LedgerFeature.registerLedger( Villagercoin.MOD_ID, id, settings );
 	}
 	
 	public static Item registerCraftableLedgerItem( String id, Item.Settings settings ) {
-		return LedgerFeature.registerCraftableLedger( Villagercoin.MOD_ID, id, new LedgerItem( settings ) );
+		return LedgerFeature.registerCraftableLedger( Villagercoin.MOD_ID, id, settings );
 	}
 	
 }

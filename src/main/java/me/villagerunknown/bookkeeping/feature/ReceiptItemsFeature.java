@@ -13,11 +13,11 @@ public class ReceiptItemsFeature {
 	}
 	
 	public static Item registerReceiptItem( String id, Item.Settings settings ) {
-		return ReceiptFeature.registerReceipt( Villagercoin.MOD_ID, id, new ReceiptItem( settings ) );
+		return ReceiptFeature.registerReceipt( Villagercoin.MOD_ID, id, settings );
 	}
 	
 	public static Item registerCraftableReceiptItem( String id, Item.Settings settings ) {
-		return ReceiptFeature.registerCraftableReceipt( Villagercoin.MOD_ID, id, new ReceiptItem( settings ) );
+		return ReceiptFeature.registerCraftableReceipt( Villagercoin.MOD_ID, id, settings );
 	}
 	
 }
